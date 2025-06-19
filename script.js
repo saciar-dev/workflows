@@ -7,12 +7,22 @@ fetch('/agenda.json')
     const tbody = document.querySelector("#agenda tbody");
     data.forEach(item => {
       const row = document.createElement("tr");
-      row.innerHTML = `
-        <td>${item.hora}</td>
-        <td>${item.actividad}</td>
-        <td>${item.responsable}</td>
-      `;
-      tbody.appendChild(row);
+      if(item.room != null) {       
+        row.innerHTML = `
+          <td>${item.time}</td>
+          <td>${item.session_title}</td>
+          <td>${item.room}</td>
+        `;
+        tbody.appendChild(row);
+      }
+      else{
+        row.innerHTML = `
+          <td style="background-color:#DDDDDD";>${item.time}</td>
+          <td style="background-color:#DDDDDD";>${item.session_title}</td>
+          <td style="background-color:#DDDDDD";></td>
+        `;
+        tbody.appendChild(row);
+      }
     });
   })
   .catch(error => {

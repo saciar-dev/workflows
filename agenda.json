@@ -1,27 +1,52 @@
 [
   {
-    "hora": "08:30",
-    "actividad": "Registro de participantes",
-    "responsable": "Equipo de Logística"
+    "time": "12:30 - 13:00",
+    "session_title": "Contact Group 1",
+    "room": "Manantiales"
   },
   {
-    "hora": "09:00",
-    "actividad": "Palabras de bienvenida",
-    "responsable": "Organización"
+    "time": "12:30 - 13:00",
+    "session_title": "Contact Group 3",
+    "room": "Jagüel"
   },
   {
-    "hora": "10:00",
-    "actividad": "Conferencia: Innovación y Tecnología",
-    "responsable": "Ing. Laura Sánchez"
+    "time": "13:00 - 13:30",
+    "session_title": "Contact Group 1",
+    "room": "Manantiales"
   },
   {
-    "hora": "11:30",
-    "actividad": "Coffee Break",
-    "responsable": "-"
+    "time": "13:00 - 13:30",
+    "session_title": "Contact Group 3",
+    "room": "Jagüel"
   },
   {
-    "hora": "12:00",
-    "actividad": "Panel de expertos: Futuro sostenible",
-    "responsable": "Varios ponentes"
+    "time": "13:30 - 14:00",
+    "session_title": "Contact Group 1",
+    "room": "Manantiales"
+  },
+  {
+    "time": "13:30 - 14:00",
+    "session_title": "Contact Group 2",
+    "room": "Jagüel"
+  },
+  {
+    "time": "14:00 - 15:00",
+    "session_title": "Break",
+    "room": null
+  },
+  {
+    "time": "15:00 - 18:00",
+    "session_title": "Contact Group 1",
+    "room": "Manantiales"
+  },
+  {
+    "time": "15:45 - 18:00",
+    "session_title": "Contact Group 3",
+    "room": "Jagüel"
+  },
+  {
+    "time": "20:00 - 23:00",
+    "session_title": "Plenary",
+    "room": null
   }
 ]
