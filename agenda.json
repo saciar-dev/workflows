@@ -1,0 +1,27 @@
+[
+  {
+    "hora": "08:30",
+    "actividad": "Registro de participantes",
+    "responsable": "Equipo de Logística"
+  },
+  {
+    "hora": "09:00",
+    "actividad": "Palabras de bienvenida",
+    "responsable": "Organización"
+  },
+  {
+    "hora": "10:00",
+    "actividad": "Conferencia: Innovación y Tecnología",
+    "responsable": "Ing. Laura Sánchez"
+  },
+  {
+    "hora": "11:30",
+    "actividad": "Coffee Break",
+    "responsable": "-"
+  },
+  {
+    "hora": "12:00",
+    "actividad": "Panel de expertos: Futuro sostenible",
+    "responsable": "Varios ponentes"
+  }
+]

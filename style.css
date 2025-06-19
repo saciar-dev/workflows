@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #00B0F0;
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  height: 100px; /* Ajusta la altura según tu diseño */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  position: absolute;
+  left: 0;
+  top: 20%;
+  transform: translateY(-50%);
+  height: 60px; /* Ajusta el tamaño según tu logo */
+}
+
+.titulo {
+  width: 100%;
+  text-align: center;
+  color: #ececec;
+  margin: 0;
+}
+
+#fecha-titulo {
+  display: flex;
+  align-items: center;
+  color: #ececec;
+  gap: 4px; /* Espacio entre el día y el mes */
+}
+
+.dia, .mes {
+  display: inline-block;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  
+  color: #007BFF;
+}
+
+@media (max-width: 600px) {
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+  thead tr {
+    display: none;
+  }
+  td {
+    position: relative;
+    padding-left: 50%;
+  }
+  td::before {
+    position: absolute;
+    left: 10px;
+    top: 12px;
+    font-weight: bold;
+    color: #333;
+  }
+  td:nth-child(1)::before { content: "Start time"; }
+  td:nth-child(2)::before { content: "Session Title"; }
+  td:nth-child(3)::before { content: "Session Room"; }
+}
