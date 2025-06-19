@@ -48,5 +48,55 @@
     "time": "20:00 - 23:00",
     "session_title": "Plenary",
     "room": null
+  },
+  {
+    "time": "12:30 - 13:00",
+    "session_title": "Contact Group 1",
+    "room": "Manantiales"
+  },
+  {
+    "time": "12:30 - 13:00",
+    "session_title": "Contact Group 3",
+    "room": "Jagüel"
+  },
+  {
+    "time": "13:00 - 13:30",
+    "session_title": "Contact Group 1",
+    "room": "Manantiales"
+  },
+  {
+    "time": "13:00 - 13:30",
+    "session_title": "Contact Group 3",
+    "room": "Jagüel"
+  },
+  {
+    "time": "13:30 - 14:00",
+    "session_title": "Contact Group 1",
+    "room": "Manantiales"
+  },
+  {
+    "time": "13:30 - 14:00",
+    "session_title": "Contact Group 2",
+    "room": "Jagüel"
+  },
+  {
+    "time": "14:00 - 15:00",
+    "session_title": "Break",
+    "room": null
+  },
+  {
+    "time": "15:00 - 18:00",
+    "session_title": "Contact Group 1",
+    "room": "Manantiales"
+  },
+  {
+    "time": "15:45 - 18:00",
+    "session_title": "Contact Group 3",
+    "room": "Jagüel"
+  },
+  {
+    "time": "20:00 - 23:00",
+    "session_title": "Plenary",
+    "room": null
   }
 ]
