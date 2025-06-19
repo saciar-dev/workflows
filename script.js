@@ -6,6 +6,9 @@
       })
       .then(data => {
         const tbody = document.querySelector("#agenda tbody");
+        if (tbody) {
+          tbody.innerHTML = '';
+        }
         data.forEach(item => {
           const row = document.createElement("tr");
           if(item.room != null) {       
